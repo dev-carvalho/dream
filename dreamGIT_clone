@@ -1,0 +1,22 @@
+# Autor: Marcos Antonio de Carvalho
+# Descrição: (Download) faz um clone do projeto do Github na maquina local
+
+cd ~/github || exit
+
+start=`date +%s`
+
+git branch -M main
+git remote add $1 https://github.com/dev-carvalho/$1.git
+
+figlet $1 | lolcat
+echo
+
+git clone https://github.com/dev-carvalho/$1.git
+
+#-- Runtime 
+echo
+end=`date +%s`
+date
+runtime=$((end-start))
+echo "Runtime $runtime seconds"
+echo ""

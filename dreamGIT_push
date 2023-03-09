@@ -1,0 +1,30 @@
+# Autor: Marcos Antonio de Carvalho
+# Descrição: (UPLOAD) faz um push do projeto da maquina local no Github
+
+cd ~/$1 || exit
+
+start=`date +%s`
+
+node=$(uname -n)
+now=$(date +'%A, %d de %B de %Y at %H:%M')
+
+git add .
+git commit -m "Update by $node in $now"
+
+git branch -M main
+git remote add $1 git@github.com:dev-carvalho/$1.git
+
+figlet $1 | lolcat
+echo
+
+git push -uf $1 main
+
+cd -
+
+#-- Runtime 
+echo
+end=`date +%s`
+date
+runtime=$((end-start))
+echo "Runtime $runtime seconds"
+echo ""
