@@ -1,15 +1,23 @@
-
-
 # Dream Setup
 ### Setup dos sonhos para os shells *zsh* e *bash* no Ubuntu on WSL2 
+
+<div style="display: inline_block">
+  <img align="right" alt="Dev-pic" style="border-radius: 50%; width: 50%; height:auto;" src="https://github.com/dev-carvalho/dream/blob/main/dream-1.png">
+  <img align="right" alt="Dev-pic" style="border-radius: 50%; width: 50%; height:auto;" src="https://github.com/dev-carvalho/dream/blob/main/dream-2.png">
+  <img align="right" alt="Dev-pic" style="border-radius: 50%; width: 50%; height:auto;" src="https://github.com/dev-carvalho/dream/blob/main/dream-3.png">
+</div>
+
 <br>
 
-## Requisitos mínimos
+### Requisitos mínimos
 - Windows 10
 - Subsistema do Windows para Linux versão 2 ativado
 - Uma distribuição Linux Ubuntu instalada
+- Windows Terminal instalado
 
-## Como instalar
+<br>
+
+### Como instalar
 - passo 1: clone o repositório dream 
 ```bash
 sudo git clone https://github.com/dev-carvalho/dream
@@ -22,11 +30,9 @@ sudo setup
 ```powershell
 wsl.exe -shutdown
 ```
-
-
 <br>
 
-## Packages que são instalados
+### Packages que são instalados
 - OH-MY-ZSH: um zsh mais colorido e alegre 
 - OH-MY-BASH: um bash mais colorido e alegre 
 - figlet: letras garrafais
@@ -37,10 +43,12 @@ wsl.exe -shutdown
 - pydf: df detahado e super colorido e alegre
 - multitail: multiplos arquivos no mesmo tail
 
+<br>
 
-<div style="display: inline_block"><br>
-  <img align="left" alt="Dev-pic" style="border-radius: 50%; width: 47%; height:auto;" src="https://github.com/dev-carvalho/dream/blob/main/dream-2.png">
-  <img align="right" alt="Dev-pic" style="border-radius: 50%; width: 47%; height:auto;" src="https://github.com/dev-carvalho/dream/blob/main/dream-1.png">
-</div>
+### Baixe e instale a fonte FiraCode Light TTF
+
+Antes de tudo, [instale o pacote de fontes Fira Code](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip), ela trará alguns efeitos bem legais ao utilizar símbolos no código ou no terminal. 
+
+<a href="https://github.com/tonsky/FiraCode/releases/download/4/Fira_Code_v4.zip"><img src="https://raw.githubusercontent.com/tonsky/FiraCode/master/extras/download.png" width="520" height="130"></a>
 
 
