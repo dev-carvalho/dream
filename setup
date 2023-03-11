@@ -1,0 +1,20 @@
+#!/bin/bash
+# Autor: Marcos Antonio de Carvalho
+# Descrição: Instalação e ajustes no Ubuntu on WSL (Windows 10) 
+
+cd ~/dream || exit
+
+chmod 744 dreamBASH
+chmod 744 dreamZSH
+chmod 744 dreamUTILS
+chmod 744 dreamWSL
+
+chmod 744 dreamGIT_clone
+chmod 744 dreamGIT_push
+
+./dreamUTILS
+./dreamBASH
+./dreamZSH
+./dreamWSL
+
+cd -

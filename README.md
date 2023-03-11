@@ -4,10 +4,26 @@
 ### Setup dos sonhos para os shells *zsh* e *bash* no Ubuntu on WSL2 
 <br>
 
+## Requisitos mínimos
+- Windows 10
+- Subsistema do Windows para Linux versão 2 ativado
+- Uma distribuição Linux Ubuntu instalada
+
 ## Como instalar
-- passo 1:
-- passo 2:
-- passo 3:
+- passo 1: clone o repositório dream 
+```bash
+sudo git clone https://github.com/dev-carvalho/dream
+```
+- passo 2: execute o setup
+```bash
+sudo setup
+```
+- passo 3: Restart seu WSL
+```powershell
+wsl.exe -shutdown
+```
+
+
 <br>
 
 ## Packages que são instalados
