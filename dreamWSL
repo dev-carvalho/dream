@@ -70,7 +70,8 @@ cat << EOF > /etc/wsl.conf
 #
 # Defina um comando para ser executado quando uma nova instância do WSL for iniciada.
 [boot]
-command = "service docker start; /opt/node_exporter/node_exporter &; echo Ok"
+command = "service docker start"
+#command = "service docker start; /opt/node_exporter/node_exporter &; echo Ok"
 
 EOF
 echo "Created /etc/wsl.conf"
