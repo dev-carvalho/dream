@@ -7,7 +7,7 @@
 # Arquivos e Diretórios
 alias  l="exa -lF"
 alias ll="exa -laF"
-alias  k="k "
+alias  k="k -ht"
 alias kk="k -a"
 alias ld="figlet Diretory Tree | lolcat; tree -dp" # Mostra apenas os diretórios
 alias lf="figlet File Tree | lolcat; tree -a"      # Mostra diretórios e arqivos
